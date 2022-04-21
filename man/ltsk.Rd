@@ -8,7 +8,7 @@ Function implements ordinary time and space kriging for large data sets, with au
 }
 \usage{
 ltsk(query, obs, th, xcoord = "x", ycoord = "y", tcoord = "t", zcoord = "z",
-	by=c(0.001,0.001,1),nbin=NULL,byvariog=c(0.5,0.5,5),subset=T,nmax=NULL,
+	by=c(0.001,0.001,1),nbin=NULL,byvariog=c(0.5,0.5,5),subset=T,nmax=20,
 	vth = NULL, vlen = NULL, llim = c(3, 3), 
 	verbose = T, Large = 2000, future=T, cl = NULL, cluster=c(2,10))
 }
